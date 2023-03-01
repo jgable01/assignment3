@@ -1,6 +1,8 @@
 Tutorial on Assign vs Replace values for page redirects
 HTML, CSS & JavaScript
 
+View Demo: https://github.com/jgable01/assignment3
+
 1) Create files (html, css & JS)
 2) Start with HTML, include doctype and meta information in <head>
 
