@@ -10,6 +10,7 @@
   --app-blue-hover: #364ee6;
   --app-red: #ff3c57;
   --app-red-hover: #ff2846;
+  --app-gold: #f4c62f;
 }
 
 
@@ -73,5 +74,5 @@ input[type=button] {
 
 input[type=button].replace {
   margin-left: 15px;
-  background-color: var(--app-bg-orange);
+  background-color: var(--app-gold);
 }
