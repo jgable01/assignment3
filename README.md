@@ -61,14 +61,14 @@ input box. We must use event listeners to check when the user clicks the button
 assignBtn.addEventListener('click', () => { //when user clicks assign
   let val = url.value.trim(); //removes empty space before/after input
   if(val.length > 15) { //checks if input is greater than 15
-    window.location.assign(val); //opens new window with new url
+    window.location.assign(val); //opens new window using url, back arrow allowed
   }
 });
 
 replaceBtn.addEventListener('click', () => {
   let val = url.value.trim();
   if(val.length > 15) {
-    window.location.replace(val); //replaces current window with new url
+    window.location.replace(val); //opens new window using url, back arrow disallowed
   }
 });
 ```
