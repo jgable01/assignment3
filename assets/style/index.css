@@ -26,3 +26,52 @@
 body {
   background-color: var(--app-bg-dark);
 }
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+section {
+  width: 360px;
+}
+
+form {
+  margin-top: 20px;
+  width: 100%;
+  text-align: right;
+  font-size: 0;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 46px;
+  padding: 0 15px;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  background-color: rgb(255 255 255 / 0.1);
+  border-radius: 5px;
+  font-size: 17px;
+  color: #fff;
+  text-align: left;
+}
+
+input[type=button] {
+  margin-top: 15px;
+  width: 120px;
+  height: 48px;
+  text-align: center;
+  background-color: var(--app-bg-blue);
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.4;
+  cursor: pointer;
+}
+
+input[type=button].replace {
+  margin-left: 15px;
+  background-color: var(--app-bg-orange);
+}
